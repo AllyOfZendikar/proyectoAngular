@@ -1,18 +1,10 @@
-ul {    
-    padding: 40px 320px;
-}
-
 ul li{
     display: inline-block;
     list-style: none;
     padding: 5px;
 }
 
-img {
-    display: inline-block;
-}
-
 div {
     background: #27AE60;
-    display: inline-block;
+    
 }
