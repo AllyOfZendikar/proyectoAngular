@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ImageComponent } from './image/image.component';
 import { NoticiasComponent } from './noticias/noticias.component';
+import { VideosComponent } from './videos/videos.component';
+import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { NoticiasComponent } from './noticias/noticias.component';
     AppComponent,
     NavComponent,
     ImageComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    VideosComponent,
+    EstadisticasComponent
   ],
   imports: [
     BrowserModule,
