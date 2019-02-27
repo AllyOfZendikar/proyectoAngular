@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ImageComponent } from './image/image.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    ImageComponent
+    ImageComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
