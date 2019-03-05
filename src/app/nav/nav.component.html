@@ -1,19 +1,31 @@
-<ul class="nav justify-content-center bg-success">
-  <li class="nav-item">
-    <app-image></app-image>
-  </li>
-  <li class="nav-item text-white">
-    <a class="nav-link active" href="#">Resultados</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/noticias">Noticias</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/videos">Videos</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/estadisticas">Estadísticas</a>
-  </li>
-</ul>
-<router-outlet></router-outlet>
+<div class="container-fluid bg-success" style="height: auto;">
+  <div class="row" style="height: 55px;">
+    <div class="col-2">
+      <div class="p-2">
+        <img class="img-fluid" src="assets/logo.png" />
+      </div>
+    </div>
 
+    <div class="col-10 ">
+      <div class="p-2">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Resultados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/noticias">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/videos">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" routerLink="/estadisticas"
+              >Estadísticas</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

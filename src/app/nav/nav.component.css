@@ -1,10 +1,4 @@
-ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 5px;
-}
-
-div {
-    background: #27AE60;
-    
+img {
+    height: 40px;
+    width: 40px;
 }
