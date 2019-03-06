@@ -5,5 +5,6 @@ _Este proyecto esta relacionado exclusivamente a la información relacionada a r
 * [ANGULAR](http://www.https://angular.io/cli/)
 * [BOOTSTRAP](https://getbootstrap.com/)
 
-
+## Mostrando
+![alt text](/src/assets/muestra.png) 
 
