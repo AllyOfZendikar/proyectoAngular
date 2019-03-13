@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 import { VideosComponent } from './videos/videos.component';
 import { EstadisticasComponent } from './estadisticas/estadisticas.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { EstadisticasComponent } from './estadisticas/estadisticas.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
