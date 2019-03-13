@@ -1,0 +1,102 @@
+{
+  "team": [
+    {
+      "id": "1",
+      "nameShow":"Wilstermann",
+      "fullName": "Jorge Wilstermann",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/15156.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/15156.jpg?size=240x&4"
+    },
+    {
+      "id": "2",
+      "nameShow":"Bolívar",
+      "fullName": "Bolívar",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/11369.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/11369.jpg?size=240x&4"
+    },
+    {
+      "id": "3",
+      "nameShow":"The Strongest",
+      "fullName": "The Strongest",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/11372.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/11372.jpg?size=240x&4"
+    },
+    {
+      "id": "4",
+      "nameShow":"Sport Boys",
+      "fullName": "Sport Boys Warnes",      
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/15158.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/15158.jpg?size=240x&4"
+    },
+    {
+      "id": "5",
+      "nameShow": "Oriente Petrolero",
+      "fullName": "Oriente Petrolero",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/1879.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/1879.jpg?size=240x&4"
+    },
+    {
+      "id": "6",
+      "nameShow": "Real Potosí",
+      "fullName": "Real Potosí",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/2116.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/2116.jpg?size=240x&4"
+    },
+    {
+      "id": "7",
+      "nameShow": "San José",
+      "fullName": "San José de Oruro",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/2231.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/2231.jpg?size=240x&4"
+    },
+    {
+      "id": "8",
+      "nameShow": "Blooming",
+      "fullName": "Blooming",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/11368.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/11368.jpg?size=240x&4"
+    },
+    {
+      "id": "9",
+      "nameShow": "Nacional Potosí",
+      "fullName": "Nacional Potosí",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/4371.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/4371.jpg?size=240x&4"
+    },
+    {
+      "id": "10",
+      "nameShow": "Guabirá",
+      "fullName": "Guabirá de Santa Cruz",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/1261.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/1261.jpg?size=240x&4"
+    },
+    {
+      "id": "11",
+      "nameShow": "Aurora",
+      "fullName": "Aurora",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/6317.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/6317.jpg?size=240x&4"
+    },
+    {
+      "id": "12",
+      "nameShow": "Destroyers",
+      "fullName": "Club Destroyers",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/60995.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/60995.jpg?size=240x&4"
+    },
+    {
+      "id": "13",
+      "nameShow": "Royal Pari",
+      "fullName": "Royal Pari",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/79080.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/79080.jpg?size=240x&4"
+    },
+    {
+      "id": "14",
+      "nameShow": "Always Ready",
+      "fullName": "Always Ready",
+      "shield": "https://thumb.resfu.com/img_data/escudos/medium/62958.jpg?size=40x&4",
+      "shield_big": "https://thumb.resfu.com/img_data/escudos/medium/62958.jpg?size=240x&4"
+    }
+  ]
+}
