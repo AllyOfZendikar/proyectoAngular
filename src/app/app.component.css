@@ -4,9 +4,11 @@ img {
     width: 30px;
 }
 
-aside {
+aside,nav {
     display: block;
 }
+
+
 #columna{
     float: left;
     width: 220px;

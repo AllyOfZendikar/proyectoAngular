@@ -4,11 +4,11 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
-import { NoticiasComponent } from './noticias/noticias.component';
-import { VideosComponent } from './videos/videos.component';
-import { EstadisticasComponent } from './estadisticas/estadisticas.component';
+import { NoticiasComponent } from './components/noticias/noticias.component';
+import { VideosComponent } from './components/videos/videos.component';
+import { EstadisticasComponent } from './components/estadisticas/estadisticas.component';
 import { HttpClientModule } from '@angular/common/http';
-import { AsideComponent } from './component/aside/aside.component';
+import { AsideComponent } from './components/aside/aside.component';
 import { ResultadosComponent } from './components/resultados/resultados.component';
 
 

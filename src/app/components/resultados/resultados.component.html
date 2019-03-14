@@ -1,3 +1,43 @@
-<p>
-  resultados works!
-</p>
+<div class="table-responsive">
+  <table class="table" style="text-align: center;">
+    <thead class="thead-light">
+      <tr>
+        <th>jornada anterior</th>
+        <th>JORNADA 11</th>
+        <th>jornada siguiente</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of matches">
+        <td>
+          <span>{{ item.date }}</span>
+        </td>
+
+        <td>
+          <table class="table">
+            <td style="width: 300px; text-align: right">
+              <span>{{ item.local }}</span>
+              <img [src]="item.localShield" />
+            </td>
+
+            <td style="width: 50px; text-align: center;">
+              <span
+                class="text-white"
+                style="padding-left: 20px; padding-right: 20px; background: black; text-align: center;"
+                >{{ item.result }}
+              </span>
+            </td>
+            <td style="width: 300px; text-align: left">
+              <img [src]="item.visitorShield" />
+              <span>{{ item.visitor }}</span>
+            </td>
+          </table>
+        </td>
+
+        <td>
+          <span>{{ item.status }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
