@@ -1,17 +1,57 @@
 <app-nav></app-nav>
 <h1>Resultados</h1>
-<table style="width:100%" border="2">
-    <tr>
-      <th>jornada anterior</th>
-      <th>JORNADA 11</th> 
-      <th>jornada siguiente</th>
-    </tr>
-    
-    <tr *ngFor =  "let item of matches">
-        <td>    
-            <img [src]="item.localShield">
-            <img [src]="item.visitorShield">
+<div class="table-responsive">
+  <table class="table" style="text-align: center;">
+    <thead class="thead-light">
+      <tr>
+        <th>jornada anterior</th>
+        <th>JORNADA 11</th>
+        <th>jornada siguiente</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of matches">
+        <!-- primera columna  -->
+        <td>
+          <span>{{ item.date }}</span>
         </td>
-    </tr>    
-    
+
+        <!--Columna del medio-->
+        <td >
+          <table class="table" >
+            <td style="width: 250px; text-align: right">
+              <span>{{ item.local }}</span>
+              <img [src]="item.localShield" />
+            </td>
+
+            <td>
+              <span
+                class="text-white"
+                style="padding:   0px  35px 0px 35px; background: black;"
+                >{{ item.result }}
+              </span>
+            </td>
+            <td style="width: 250px; text-align: left">
+              <img [src]="item.visitorShield" />
+              <span>{{ item.visitor }}</span>
+            </td>
+          </table>
+          <!-- <span>{{ item.local }}</span>
+          <img [src]="item.localShield" />
+          <span
+            class="text-white"
+            style="padding:   0px  40px 0px 40px; background: black;"
+            >{{ item.result }}
+          </span>
+          <img [src]="item.visitorShield" />
+          <span>{{ item.visitor }}</span> -->
+        </td>
+
+        <!--Columna derecha-->
+        <td>
+          <span>{{ item.status }}</span>
+        </td>
+      </tr>
+    </tbody>
   </table>
+</div>
