@@ -8,6 +8,7 @@ import { NoticiasComponent } from './noticias/noticias.component';
 import { VideosComponent } from './videos/videos.component';
 import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AsideComponent } from './component/aside/aside.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     NavComponent,
     NoticiasComponent,
     VideosComponent,
-    EstadisticasComponent
+    EstadisticasComponent,
+    AsideComponent
   ],
   imports: [
     BrowserModule,

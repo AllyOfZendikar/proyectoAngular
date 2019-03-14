@@ -18,20 +18,20 @@
 
         <!--Columna del medio-->
         <td >
-          <table class="table" >
-            <td style="width: 250px; text-align: right">
+          <table class="table">
+            <td style="width: 300px; text-align: right">
               <span>{{ item.local }}</span>
               <img [src]="item.localShield" />
             </td>
 
-            <td>
+            <td style="width: 50px; text-align: center;">
               <span
                 class="text-white"
-                style="padding:   0px  35px 0px 35px; background: black;"
+                style="padding-left: 20px; padding-right: 20px; background: black; text-align: center;"
                 >{{ item.result }}
               </span>
             </td>
-            <td style="width: 250px; text-align: left">
+            <td style="width: 300px; text-align: left">
               <img [src]="item.visitorShield" />
               <span>{{ item.visitor }}</span>
             </td>
