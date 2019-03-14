@@ -9,6 +9,7 @@ import { VideosComponent } from './videos/videos.component';
 import { EstadisticasComponent } from './estadisticas/estadisticas.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AsideComponent } from './component/aside/aside.component';
+import { ResultadosComponent } from './components/resultados/resultados.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { AsideComponent } from './component/aside/aside.component';
     NoticiasComponent,
     VideosComponent,
     EstadisticasComponent,
-    AsideComponent
+    AsideComponent,
+    ResultadosComponent
   ],
   imports: [
     BrowserModule,
