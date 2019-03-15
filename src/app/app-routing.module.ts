@@ -10,7 +10,8 @@ import {ResultadosComponent } from './components/resultados/resultados.component
 const routes: Routes = [
   {path: 'noticias', component: NoticiasComponent},
   {path: 'videos', component: VideosComponent},
-  {path: 'estadisticas', component: EstadisticasComponent}
+  {path: 'estadisticas', component: EstadisticasComponent},
+  {path: 'resultados', component: ResultadosComponent}
 ];
 
 @NgModule({

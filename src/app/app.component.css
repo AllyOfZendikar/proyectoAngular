@@ -1,18 +1,22 @@
 
-img {
-    height: 30px;
-    width: 30px;
+.borde{
+    background-color: gray;
+    height: 200px;
 }
 
-aside,nav {
-    display: block;
+.borde1{
+    background-color: aquamarine;
+    height: 50px;
 }
 
+.borde2{
+    height: 50px;
+    text-align: center;
+    background-color: olivedrab;
+}
 
-#columna{
-    float: left;
-    width: 220px;
-    margin: 20px;
-    padding: 20px;
-    background: darkkhaki;
+.borde3{
+    height: 50px;
+    text-align: center;
+    background-color: orangered;
 }
