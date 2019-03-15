@@ -2,3 +2,8 @@ img {
     height: 30px;
     width: 30px;
 }
+
+table{
+    height: 0px;
+    width: 400px;
+}

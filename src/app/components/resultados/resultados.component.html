@@ -1,43 +1,48 @@
-
-  <table class="table-sm" style="text-align: center;">
-    <thead class="thead-light">
-      <tr>
-        <th>jornada anterior</th>
-        <th>JORNADA 11</th>
-        <th>jornada siguiente</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let item of matches">
-        <td>
-          <span>{{ item.date }}</span>
-        </td>
-
-        <td>
-          <table class="table">
-            <td style="width: 250px; text-align: right">
-              <span>{{ item.local }}</span>
-              <img [src]="item.localShield" />
+<div class="table-responsive">
+    <table class="table table-sm" style="text-align: center;">
+        <thead class="thead-dark">
+          <tr>
+            <th>jornada anterior</th>
+            <th>JORNADA 11</th>
+            <th>jornada siguiente</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of matches">
+            <td class="w-25">
+              <span>{{ item.date }}</span>
             </td>
-
-            <td style="width: 100px; text-align: center;">
-              <span
-                class="text-white"
-                style="padding-left: 10px; padding-right: 10px; background: black; text-align: center;"
-                >{{ item.result }}
-              </span>
+      
+            <td>
+              <table class="table-sm">
+                <td style="width: 130px; text-align: right">
+                  <span>{{ item.local }}</span>
+                </td> 
+                <td>
+                  <img [src]="item.localShield" />
+                </td>  
+      
+                <td style="width: 50px; text-align: center;">
+                  <span
+                    class="text-white"
+                    style="padding-left: 5px; padding-right: 5px; background: black; text-align: center;"
+                    >{{ item.result }}
+                  </span>
+                </td>
+                <td >
+                  <img [src]="item.visitorShield" />
+                </td>
+                <td style="width: 140px; text-align: left">
+                  <span>{{ item.visitor }}</span>
+                </td>
+              </table>
             </td>
-            <td style="width: 250px; text-align: left">
-              <img [src]="item.visitorShield" />
-              <span>{{ item.visitor }}</span>
+      
+            <td class="w-25">
+              <span>{{ item.status }}</span>
             </td>
-          </table>
-        </td>
-
-        <td>
-          <span>{{ item.status }}</span>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
+          </tr>
+        </tbody>
+      </table>
+      
+</div>
