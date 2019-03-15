@@ -7,3 +7,9 @@ table{
     height: 0px;
     width: 400px;
 }
+
+article {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin: 15px;
+}

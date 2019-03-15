@@ -1,0 +1,12 @@
+<div class="container-fluid ">
+  <img src="assets/bolivia.png" />
+
+  <table class="table-hover">
+    <tr *ngFor="let item of teams">
+      <td style="text-align: center;"><img [src]="item.shield" /></td>
+      <td>
+        <a routerLink="/noticias">{{ item.fullName }}</a>
+      </td>
+    </tr>
+  </table>
+</div>

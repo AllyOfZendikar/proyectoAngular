@@ -9,8 +9,9 @@ import { NavComponent } from './components/nav/nav.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { EstadisticasComponent } from './components/estadisticas/estadisticas.component';
-import { PosicionesComponent } from './components/posiciones/posiciones.component';
 import { ResultadosComponent } from './components/resultados/resultados.component';
+import { TablaPosicionesComponent } from './components/tabla-posiciones/tabla-posiciones.component';
+import { EquiposComponent } from './components/equipos/equipos.component';
 
 
 @NgModule({
@@ -20,8 +21,9 @@ import { ResultadosComponent } from './components/resultados/resultados.componen
     NoticiasComponent,
     VideosComponent,
     EstadisticasComponent,
-    PosicionesComponent,
-    ResultadosComponent
+    ResultadosComponent,
+    TablaPosicionesComponent,
+    EquiposComponent
   ],
   imports: [
     BrowserModule,

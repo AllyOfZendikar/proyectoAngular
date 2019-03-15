@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Standigs } from '../models/Standings';
+import { Standings } from '../models/Standings';
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +11,6 @@ export class StandingsService {
 
   getStandings(){
     const url = "assets/posiciones.json";
-    return this.http.get<Standigs[]>(url);
+    return this.http.get<Standings[]>(url);
   }
 }
