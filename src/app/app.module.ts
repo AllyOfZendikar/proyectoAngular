@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
+import { NavComponent } from './components/nav/nav.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { EstadisticasComponent } from './components/estadisticas/estadisticas.component';
