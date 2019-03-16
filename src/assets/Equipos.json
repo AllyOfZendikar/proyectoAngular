@@ -1,100 +1,184 @@
 [
   {
     "id": "1",
-    "nameShow": "Wilstermann",
-    "fullName": "Jorge Wilstermann",
+    "nameShow": "WIL",
+    "fullName": "Wilstermann",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/15156.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/15156.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/15156.jpg?size=240x&4",
+    "ciudad": "Cochabamba",
+    "entrenador": "Miguel Ángel Potugal",
+    "añoFundación": "1949",
+    "pais": "Bolivia",
+    "presidente": "Grover Vargas",
+    "estadio": "Felix Capriles"
   },
   {
     "id": "2",
-    "nameShow": "Bolívar",
+    "nameShow": "BOL",
     "fullName": "Bolívar",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/11369.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/11369.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/11369.jpg?size=240x&4",
+    "ciudad": "La Paz",
+    "entrenador": "César Vigevani",
+    "añoFundación": "1925",
+    "pais": "Bolivia",
+    "presidente": "Guido Loayza",
+    "estadio": "Hernando Siles"
   },
   {
     "id": "3",
-    "nameShow": "The Strongest",
+    "nameShow": "THS",
     "fullName": "The Strongest",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/11372.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/11372.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/11372.jpg?size=240x&4",
+    "ciudad": "La Paz",
+    "entrenador": "Pablo Escobar",
+    "añoFundación": "1908",
+    "pais": "Bolivia",
+    "presidente": "Cesar Salinas",
+    "estadio": "Hernando Siles"
   },
   {
     "id": "4",
-    "nameShow": "Sport Boys",
-    "fullName": "Sport Boys Warnes",
+    "nameShow": "SPB",
+    "fullName": "Sport Boys",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/15158.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/15158.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/15158.jpg?size=240x&4",
+    "ciudad": "Santa Cruz",
+    "entrenador": "Christian Lovrincevich",
+    "añoFundación": "1954",
+    "pais": "Bolivia",
+    "presidente": "Carlos Romero",
+    "estadio": "Samuel Vaca Gúzman"
   },
   {
     "id": "5",
-    "nameShow": "Oriente Petrolero",
+    "nameShow": "ORI",
     "fullName": "Oriente Petrolero",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/1879.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/1879.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/1879.jpg?size=240x&4",
+    "ciudad": "Santa Cruz",
+    "entrenador": "Mauricio Soria",
+    "añoFundación": "1955",
+    "pais": "Bolivia",
+    "presidente": "Jose Ernesto Alvarez",
+    "estadio": "Ramón Tahuichi Aguilera"
   },
   {
     "id": "6",
-    "nameShow": "Real Potosí",
+    "nameShow": "RPT",
     "fullName": "Real Potosí",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/2116.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/2116.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/2116.jpg?size=240x&4",
+    "ciudad": "Potosí",
+    "entrenador": "Fernando Ochoaizpur",
+    "añoFundación": "1941",
+    "pais": "Bolivia",
+    "presidente": "Calixto Santos",
+    "estadio": "Victor Agustín Ugarte"
   },
   {
     "id": "7",
-    "nameShow": "San José",
-    "fullName": "San José de Oruro",
+    "nameShow": "SJO",
+    "fullName": "San José",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/2231.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/2231.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/2231.jpg?size=240x&4",
+    "ciudad": "Oruro",
+    "entrenador": "Néstor Clausen",
+    "añoFundación": "1942",
+    "pais":"Bolivia",
+    "presidente": "Wilson Martinez",
+    "estadio": "Jesús Bermudez"
   },
   {
     "id": "8",
-    "nameShow": "Blooming",
+    "nameShow": "BLO",
     "fullName": "Blooming",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/11368.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/11368.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/11368.jpg?size=240x&4",
+    "ciudad": "Santa Cruz",
+    "entrenador": "Erwin Sanchez",
+    "añoFundación": "1946",
+    "pais":"Bolivia",
+    "presidente": "Juan Alfredo",
+    "estadio": "Ramón Tahuichi Aguilera"
   },
   {
     "id": "9",
-    "nameShow": "Nacional Potosí",
+    "nameShow": "NAL",
     "fullName": "Nacional Potosí",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/4371.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/4371.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/4371.jpg?size=240x&4",
+    "ciudad": "Potosí",
+    "entrenador": "Alberto Illanes",
+    "añoFundación": "1942",
+    "pais":"Bolivia",
+    "presidente": "Wilfredo Condori",
+    "estadio": "Victor Agustín Ugarte"
   },
   {
     "id": "10",
-    "nameShow": "Guabirá",
-    "fullName": "Guabirá de Santa Cruz",
+    "nameShow": "GUA",
+    "fullName": "Guabirá",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/1261.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/1261.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/1261.jpg?size=240x&4",
+    "ciudad": "Santa Cruz",
+    "entrenador": "Eduardo Espinel",
+    "añoFundación": "1962",
+    "pais":"Bolivia",
+    "presidente": "Rafael Paz",
+    "estadio": "Gilberto Parada"
   },
   {
     "id": "11",
-    "nameShow": "Aurora",
+    "nameShow": "AUR",
     "fullName": "Aurora",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/6317.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/6317.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/6317.jpg?size=240x&4",
+    "ciudad":"Cochabamba",
+    "entrenador": "Marcos Ferrufino",
+    "añoFundación": "1935",
+    "pais": "Bolivia",
+    "presidente": "Jaime Cornejo",
+    "estadio": "Felix Capriles"
   },
   {
     "id": "12",
-    "nameShow": "Destroyers",
-    "fullName": "Club Destroyers",
+    "nameShow": "DES",
+    "fullName": "Destroyers",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/60995.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/60995.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/60995.jpg?size=240x&4",
+    "ciudad": "Santa Cruz",
+    "entrenador": "Evandro Guimares",
+    "añoFundación": "1948",
+    "pais":"Bolivia",
+    "presidente": "Pedro Rivero",
+    "estadio":"Ramón Tahuichi Aguilera"
   },
   {
     "id": "13",
-    "nameShow": "Royal Pari",
+    "nameShow": "RYP",
     "fullName": "Royal Pari",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/79080.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/79080.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/79080.jpg?size=240x&4",
+    "ciudad":"Santa Cruz",
+    "entrenador": "Roberto Mosquera",
+    "añoFundación": "2002",
+    "pais":"Bolivia",
+    "presidente": "Mario Chávez",
+    "estadio": "Ramón Tahuichi Aguilera"
   },
   {
     "id": "14",
-    "nameShow": "Always Ready",
+    "nameShow": "CAR",
     "fullName": "Always Ready",
     "shield": "https://thumb.resfu.com/img_data/escudos/medium/62958.jpg?size=40x&4",
-    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/62958.jpg?size=240x&4"
+    "shieldBig": "https://thumb.resfu.com/img_data/escudos/medium/62958.jpg?size=240x&4",
+    "ciudad":"La Paz",
+    "entrenador": "Julio Baldiviezo",
+    "añoFundación": "1933",
+    "pais":"Bolivia",
+    "presidente": "Marco Antelo",
+    "estadio": "Municipal Evo Morales"
   }
 ]

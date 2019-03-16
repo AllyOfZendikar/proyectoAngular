@@ -1,12 +1,65 @@
-<div class="container-fluid ">
-  <img src="assets/bolivia.png" />
+<div class="table table-light">
+  
 
   <table class="table-hover">
-    <tr *ngFor="let item of teams">
-      <td style="text-align: center;"><img [src]="item.shield" /></td>
-      <td>
-        <a routerLink="/noticias">{{ item.fullName }}</a>
-      </td>
+    <tr>
+      <td colspan="2"><img src="assets/bolivia.png" /></td>
+    </tr>
+    <tr>
+      <td><img src="assets/WIL.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '1']">Wilstermann</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/BOL.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '2']">Bolívar</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/THS.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '3']">The Strongest</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/SPB.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '4']">Sport Boys</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/ORI.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '5']">Oriente Petrolero</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/RPT.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '6']">Wilstermann</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/SJO.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '7']">San José</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/BLO.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '8']">Blooming</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/NAL.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '9']">Nacional Potosí</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/GUA.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '10']">Guabirá</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/AUR.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '11']">Aurora</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/DES.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '12']">Destroyers</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/RYP.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '13']">Royal Pari</a></td>
+    </tr>
+    <tr>
+      <td><img src="assets/CAR.png" /></td>
+      <td><a [routerLink]="['/infoEquipos', '14']">Always Ready</a></td>
     </tr>
   </table>
 </div>

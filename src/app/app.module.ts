@@ -12,6 +12,8 @@ import { EstadisticasComponent } from './components/estadisticas/estadisticas.co
 import { ResultadosComponent } from './components/resultados/resultados.component';
 import { TablaPosicionesComponent } from './components/tabla-posiciones/tabla-posiciones.component';
 import { EquiposComponent } from './components/equipos/equipos.component';
+import { InformacionEquiposComponent } from './components/informacion-equipos/informacion-equipos.component';
+
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { EquiposComponent } from './components/equipos/equipos.component';
     EstadisticasComponent,
     ResultadosComponent,
     TablaPosicionesComponent,
-    EquiposComponent
+    EquiposComponent,
+    InformacionEquiposComponent
   ],
   imports: [
     BrowserModule,
